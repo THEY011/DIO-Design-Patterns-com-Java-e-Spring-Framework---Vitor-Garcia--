@@ -6,6 +6,6 @@ import com.vitorEduardoGarcia.designPatterns_DIO.model.Address;
 
 @Repository
 public interface AddressRepository extends CrudRepository<Address, String> {
-    // String porque o ID (zipCode) é texto
+   
 }
 
